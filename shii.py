@@ -1897,7 +1897,7 @@ async def tag(ctx, name: str = None):
         await ctx.send(f"❌ Unknown tag: `{name}`", delete_after=5)
        
 if __name__ == "__main__":
-    token = os.getenv("BOT_TOKEN")
+    token = os.getenv("MTQ3NTc5MzQwNzgxMjA0MjgwNQ.GVhfkX.JZ37Ws3LHOoIXSB-XEuMWQLs7AYHK4aMSctuJw")
     if not token:
-        raise RuntimeError("BOT_TOKEN environment variable not set")
+        raise RuntimeError("MTQ3NTc5MzQwNzgxMjA0MjgwNQ.GVhfkX.JZ37Ws3LHOoIXSB-XEuMWQLs7AYHK4aMSctuJw environment variable not set")
     bot.run(token)
